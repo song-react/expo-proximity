@@ -1,11 +1,11 @@
-# react-native-proximity
+# expo-proximity
 
 仅提供 iOS 距离传感器的原生状态、变化事件和 React hook，使用 Expo Modules API。音频路由由调用方处理。
 
 ## 安装
 
 ```sh
-bun add @app/react-native-proximity@github:song-react/react-native-proximity
+bun add @app/expo-proximity@github:song-react/expo-proximity
 bunx expo prebuild --platform ios
 ```
 
@@ -14,7 +14,7 @@ bunx expo prebuild --platform ios
 ## Hook
 
 ```tsx
-import { useProximity } from '@app/react-native-proximity';
+import { useProximity } from '@app/expo-proximity';
 
 const near = useProximity(enabled);
 ```
@@ -24,7 +24,7 @@ const near = useProximity(enabled);
 ## 原生接口
 
 ```ts
-import { proximity } from '@app/react-native-proximity';
+import { proximity } from '@app/expo-proximity';
 
 proximity.proximityState; // 只读：是否靠近
 proximity.isProximityMonitoringEnabled; // 只读：当前是否实际开启监控

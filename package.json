@@ -1,5 +1,5 @@
 {
-  "name": "@app/react-native-proximity",
+  "name": "@app/expo-proximity",
   "version": "0.1.0",
   "description": "iOS 距离传感器原生接口与 React hook",
   "main": "index.ts",
@@ -12,9 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/song-react/react-native-proximity.git"
+    "url": "https://github.com/song-react/expo-proximity.git"
   },
-  "homepage": "https://github.com/song-react/react-native-proximity",
+  "homepage": "https://github.com/song-react/expo-proximity",
   "license": "UNLICENSED",
   "peerDependencies": {
     "expo": ">=57.0.0 <58",
