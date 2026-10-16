@@ -5,7 +5,7 @@
 ## 安装
 
 ```sh
-bun add @app/expo-proximity@github:song-react/expo-proximity
+bun add @song-react/expo-proximity@github:song-react/expo-proximity
 bunx expo prebuild --platform ios
 ```
 
@@ -14,7 +14,7 @@ bunx expo prebuild --platform ios
 ## Hook
 
 ```tsx
-import { useProximity } from '@app/expo-proximity';
+import { useProximity } from '@song-react/expo-proximity';
 
 const near = useProximity(enabled);
 ```
@@ -24,7 +24,7 @@ const near = useProximity(enabled);
 ## 原生接口
 
 ```ts
-import { proximity } from '@app/expo-proximity';
+import { proximity } from '@song-react/expo-proximity';
 
 proximity.proximityState; // 只读：是否靠近
 proximity.isProximityMonitoringEnabled; // 只读：当前是否实际开启监控
